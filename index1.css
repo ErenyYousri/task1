@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+.header{
+background-color:powderblue;
+padding: 30px 40px;
+color: white;
+  }
+  .cen{text-align: center;
+    font-size: 50px;
+     color:blueviolet ;
+     font-style: italic;
+    }
+
+.addbtn{background-color: yellow;}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background:rgb(226, 215, 215);
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  ul li:hover {
+    background:rgb(145, 142, 142);
+  }
+  .addbtn {
+    padding: 10px;
+    width: 25%;
+    background-color:rgb(224, 190, 190);
+    color:black;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  .addbtn:hover {
+    background:rgb(233, 211, 181);
+  }
